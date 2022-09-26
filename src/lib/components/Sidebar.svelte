@@ -1,27 +1,27 @@
 <script>
 	import { page } from '$app/stores';
-	import PA from '$lib/images/Magenta GYTR.png';
+	import GYTR from '$lib/images/Magenta GYTR.png';
 	const nav = [
 		{ title: 'User', path: '/users' },
 		{ title: 'Analytics', path: '/mStats' }
 	];
 </script>
 
-<div class="min-h-screen bg-bubble-gum">
+<div class="min-h-screen bg-violet-900">
 	<div
-		class="sidebar min-h-screen w-[3.35rem] overflow-hidden border-r hover:w-56 hover:bg-pink-400 hover:shadow-lg"
+		class="sidebar min-h-screen w-[3.35rem] overflow-hidden border-r hover:w-56 hover:bg-hotpink-700 hover:shadow-lg"
 	>
 		<div class="flex h-screen flex-col justify-between pt-2 pb-6">
 			<div>
 				<div class="w-max p-2.5">
-					<img src={PA} class="w-15 h-14" alt="" />
+					<img src={GYTR} class="h-24" alt="PA GYTR logo." />
 				</div>
 				<ul class="mt-6 space-y-2 tracking-wide">
 					<li class="min-w-max">
 						<a
 							href="/"
 							aria-label="dashboard"
-							class="relative flex items-center space-x-4 bg-gradient-to-r from-sky-600 to-cyan-400 px-4 py-3 text-white"
+							class="relative flex items-center space-x-4 px-4 py-3 text-white"
 						>
 							<svg class="-ml-1 h-6 w-6" viewBox="0 0 24 24" fill="none">
 								<path
@@ -37,7 +37,7 @@
 									class="fill-current group-hover:text-sky-300"
 								/>
 							</svg>
-							<span class="-mr-1 font-medium">Dashboard</span>
+							<span class="-mr-1 font-medium">[Izakk YYZ]</span>
 						</a>
 					</li>
 					<li class="min-w-max">
@@ -62,7 +62,7 @@
 									d="M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z"
 								/>
 							</svg>
-							<span class="group-hover:text-gray-700">Categories</span>
+							<span class="group-hover:text-gray-700">MI</span>
 						</a>
 					</li>
 					<li class="min-w-max">
@@ -87,7 +87,7 @@
 									d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"
 								/>
 							</svg>
-							<span class="group-hover:text-gray-700">Reports</span>
+							<span class="group-hover:text-gray-700">mStats</span>
 						</a>
 					</li>
 					<li class="min-w-max">
@@ -110,7 +110,7 @@
 									d="M12 2.252A8.014 8.014 0 0117.748 8H12V2.252z"
 								/>
 							</svg>
-							<span class="group-hover:text-gray-700">Other data</span>
+							<span class="group-hover:text-gray-700">mReinforcer</span>
 						</a>
 					</li>
 					<li class="min-w-max">
@@ -135,13 +135,16 @@
 									clip-rule="evenodd"
 								/>
 							</svg>
-							<span class="group-hover:text-gray-700">Finance</span>
+							<span class="group-hover:text-gray-700">User Data</span>
 						</a>
 					</li>
 				</ul>
 			</div>
 			<div class="w-max -mb-3">
-				<a href="/" class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600">
+				<a
+					href="/settings"
+					class="group flex items-center space-x-4 rounded-md px-4 py-3 text-gray-600"
+				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-5 w-5 group-hover:fill-cyan-600"
