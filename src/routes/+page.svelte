@@ -1,1 +1,2 @@
-<h1 class="lg:text-9xl">Performer AI</h1>
+<h1 class="lg:text-3xl">Performer AI</h1>
+
