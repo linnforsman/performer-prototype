@@ -12,7 +12,9 @@
     <Register />
   {:else if segment === 'forget_password'}
     <ForgetPassword />
-  {/if}<script>
+  {/if}
+  
+  <script>
     import Login from "./login.svelte";
     import Register from "./register.svelte";
     import ForgetPassword from "./forget_password.svelte";
