@@ -5,8 +5,7 @@
 <footer>
 	<div>
 		<small class="uppercase font-mono">
-			All rights reserved © {date} Performer AI
+			All rights reserved © 2020 - {date} Performer AI
 		</small>
 	</div>
 </footer>
-w

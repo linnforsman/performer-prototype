@@ -1,3 +1,5 @@
-<main class="ml-auto mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%] bg-violet-500">
-	<slot />
-</main>
+<div class="px-6 pt-6 2xl:container">
+	<div class="flex justify-center items-center h-[80vh] border border-gray-300">
+		<span>Content</span>
+	</div>
+</div>

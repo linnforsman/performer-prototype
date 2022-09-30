@@ -1,15 +1,16 @@
 <script>
 	import { page } from '$app/stores';
-	import GYTR from '$lib/images/Magenta GYTR.png';
+	import GYTR from '$lib/assets/images/Magenta GYTR.png';
 	const nav = [
 		{ title: 'User', path: '/user' },
-		{ title: 'Stats', path: '/analysis' },
-		{ title: 'Codex', path: '/codex' }
+		{ title: 'mStats', path: '/analysis' },
+		{ title: 'Codex', path: '/codex' },
+		{ title: 'Settings', path: '/settings' }
 	];
 </script>
 
 <aside
-	class="bg-violet-900 ml-[-100%] fixed z-10 top-0 pb-3 px-6 w-full flex flex-col justify-between h-screen border-r transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%]"
+	class="relative bg-violet-900 ml-[-100%] z-10 top-0 pb-3 px-6 w-full flex flex-col justify-content h-screen border-r transition duration-300 md:w-4/12 lg:ml-0 lg:w-[25%] xl:w-[20%] 2xl:w-[15%]"
 >
 	<div>
 		<div class="-mx-6 px-6 py-4">
@@ -19,7 +20,7 @@
 		</div>
 	</div>
 
-	<div class="mt-8 text-center">
+	<div class="text-center">
 		<img
 			src={GYTR}
 			alt="Your user profile."
@@ -32,9 +33,9 @@
 	</div>
 
 	{#each nav as item}
-		<ul class="space-y-2 tracking-wide mt-8">
+		<ul class="space-y-2 tracking-wide mt-8 uppercase hover:italic">
 			<a
-				class="block py-3 pr-4 pl-3 dark:text-sky-400 dark:hover:text-white dark:hover:italic"
+				class="block py-3 pr-4 pl-3 bg-violet-50"
 				class:active={$page.url.pathname === item.path}
 				href={item.path}
 				target="_self">{item.title}</a
