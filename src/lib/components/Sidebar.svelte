@@ -30,12 +30,13 @@
 			Izakk Placeholder
 		</h5>
 		<span class="hidden text-hotpink-200 lg:block">PERFORMER Candidate</span>
+		<span class="uppercase text-hotpink-200 font-thin">Services engaged: ANALYSIS</span>
 	</div>
 
 	{#each nav as item}
 		<ul class="space-y-2 tracking-wide mt-8 uppercase hover:italic">
 			<a
-				class="block py-3 pr-4 pl-3 bg-violet-800 text-hotpink-400"
+				class="block py-3 pr-4 pl-3 bg-hotpink-800 text-hotpink-400"
 				class:active={$page.url.pathname === item.path}
 				href={item.path}
 				target="_self">{item.title}</a

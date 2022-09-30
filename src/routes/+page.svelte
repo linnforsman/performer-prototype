@@ -7,4 +7,4 @@
 	<title>Performer AI | {title}</title>
 </svelte:head>
 
-<Content title="usage" />
+<Content />
