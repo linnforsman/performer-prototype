@@ -1,5 +1,6 @@
 <script>
 	import MStats from '$lib/components/mStats.svelte';
+	import Fretboard from '$lib/components/mStats/Fretboard.svelte';
 </script>
 
 <div>
@@ -10,4 +11,6 @@
 		nihil aperiam iste corporis ratione dolorem eius! Aliquid quis mollitia quasi nesciunt
 		perspiciatis facere ipsum ex molestiae aut provident, possimus quae atque laboriosam!
 	</p>
+
+	<Fretboard />
 </div>
