@@ -3,8 +3,12 @@
 	import Fretboard from '$lib/components/mStats/Fretboard.svelte';
 </script>
 
+<div class="grid grid-cols-2">
+	<div>2</div>
+	<div><MStats /></div>
+</div>
+
 <div>
-	<MStats />
 	<p class="text-hotpink-400">
 		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus quasi quas, quos aut optio
 		expedita esse incidunt corporis magnam dolorem architecto nam neque. Cumque dicta minima qui

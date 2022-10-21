@@ -21,13 +21,7 @@
 			$open = false;
 		});
 	}
-
-	export let title;
 </script>
-
-<svelte:head>
-	<title>Performer AI | {title}</title>
-</svelte:head>
 
 <div class={style.container}>
 	<div class="flex items-start">
